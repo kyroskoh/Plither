@@ -21,12 +21,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mZer0ne/Slither.io"
+		"url": "https://github.com/PlitherProject/Plither"
 	},
 	"author": "Oleg Filippov <m@zer0ne.xyz> (http://www.zer0ne.xyz/)",
 	"license": "Apache License 2.0",
 	"bugs": {
-		"url": "https://github.com/mZer0ne/Slither.io/issues"
+		"url": "https://github.com/PlitherProject/Plither/issues"
 	},
-	"homepage": "https://github.com/mZer0ne/Slither.io"
+	"homepage": "https://github.com/PlitherProject/Plither"
 }
