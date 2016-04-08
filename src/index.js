@@ -12,13 +12,13 @@ var countServers = 1;
 // Run PlitherWeb
 process.argv.forEach(function(val) {
 	if ( val == '--master' ) {
-		runMaster = true;
+		runClient = true;
 	} else if (regServer.test(val)) {
 		gConfig = regServer.exec(val)[1];
 	}
 });
 
-if( runMaster ){
+if( runClient ){
 	var ClientServer = require('./ClientServer');
 	var clientServer = new ClientServer();
 	clientServer.start();

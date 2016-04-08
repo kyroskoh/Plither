@@ -1,5 +1,5 @@
 {
-	"name": "Slither.io",
+	"name": "Plither",
 	"version": "1.0.0",
 	"description": "Open source Slither.io server and client",
 	"main": "src/index.js",
