@@ -1,0 +1,128 @@
+body {
+	background: #161c22;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+input.sumsginp:focus {
+	outline: none;
+	background: none !important;
+}
+.sumsginp {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 15px;
+	word-wrap: break-word;
+	color: #e0e0ff;
+	background: none;
+	resize: none;
+	border: 0px;
+	height: 23px;
+	opacity: 1;
+	position: absolute;
+	left: 12px;
+	top: 10px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.taho {
+	position: relative;
+	height: 43px;
+	border-radius: 29px;
+	border: 2px solid rgba(0, 0, 0, 1);
+	overflow: hidden;
+	display: inline-block;
+}
+input[id="nick"]::-webkit-input-placeholder {
+	color: #7070B0;
+	opacity:1;
+}
+input[id="nick"]:-moz-placeholder {
+	color: #7070B0;
+	opacity:1;
+}
+input[id="nick"]::-moz-placeholder {
+	color: #7070B0;
+	opacity:1;
+}
+input[id="nick"]:-ms-input-placeholder {
+	color: #7070B0;
+	opacity:1;
+}
+input[id="victory"]::-webkit-input-placeholder {
+	color: #80C8FF;
+	opacity:1;
+}
+input[id="victory"]:-moz-placeholder {
+	color: #80C8FF;
+	opacity:1;
+}
+input[id="victory"]::-moz-placeholder {
+	color: #80C8FF;
+	opacity:1;
+}
+input[id="victory"]:-ms-input-placeholder {
+	color: #80C8FF;
+	opacity:1;
+}
+.nsi {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.btnt {
+	outline:none;
+}
+.btn:link {
+	opacity: .7;
+	text-decoration: none;
+}
+.btn:visited {
+	opacity: .7;
+	text-decoration: none;
+}
+.btn:hover {
+	opacity: 1;
+	text-decoration: none;
+}
+.btn:active {
+	opacity: .5;
+	text-decoration: none;
+}
+.lq:link {
+	opacity: .8;
+	color: #80FF80;
+}
+.lq:visited {
+	opacity: .8;
+	color: #80FF80;
+}
+.lq:hover {
+	opacity: 1;
+	color: #80FF80;
+}
+.lq:active {
+	opacity: .5;
+	color: #80FF80;
+}
+.lq2:link {
+	opacity: .8;
+	color: #8058D0;
+	text-decoration: none;
+}
+.lq2:visited {
+	opacity: .8;
+	color: #8058D0;
+	text-decoration: none;
+}
+.lq2:hover {
+	opacity: 1;
+	color: #8058D0;
+	text-decoration: underline;
+}
+.lq2:active {
+	opacity: .5;
+	color: #8058D0;
+	text-decoration: underline;
+}
