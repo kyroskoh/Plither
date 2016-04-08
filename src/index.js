@@ -11,7 +11,7 @@ var countServers = 1;
 
 // Run PlitherWeb
 process.argv.forEach(function(val) {
-	if ( val == '--master' ) {
+	if ( val == '--client' ) {
 		runClient = true;
 	} else if (regServer.test(val)) {
 		gConfig = regServer.exec(val)[1];
