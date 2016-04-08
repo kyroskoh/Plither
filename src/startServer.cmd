@@ -1,0 +1,1 @@
+node index.js --gServer=./configs/GameServer.json
