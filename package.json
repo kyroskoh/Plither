@@ -1,0 +1,32 @@
+{
+	"name": "Slither.io",
+	"version": "1.0.0",
+	"description": "Open source Slither.io server and client",
+	"main": "src/index.js",
+	"dependencies": {
+		"connect-busboy": "latest",
+		"cookie-parser": "latest",
+		"serve-favicon": "latest",
+		"body-parser": "latest",
+		"express": "latest",
+		"morgan": "latest",
+		"debug": "latest",
+		"hbs": "latest",
+		"ws": "latest"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "node ./src/index",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mZer0ne/Slither.io"
+	},
+	"author": "Oleg Filippov <m@zer0ne.xyz> (http://www.zer0ne.xyz/)",
+	"license": "Apache License 2.0",
+	"bugs": {
+		"url": "https://github.com/mZer0ne/Slither.io/issues"
+	},
+	"homepage": "https://github.com/mZer0ne/Slither.io"
+}
